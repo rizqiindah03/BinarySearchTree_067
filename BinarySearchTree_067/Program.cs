@@ -20,8 +20,15 @@ namespace BinarySearchTree_067
             leftchild = l;
             rightchild = r;
         }
-        static void Main(string[] args)
+    }
+    /* A node class consist os three things, the information, reference to the right child, and reference to the left child */
+
+    class BinaryTree
+    {
+        public node ROOT;
+        public BinaryTree()
         {
+
         }
     }
 }
