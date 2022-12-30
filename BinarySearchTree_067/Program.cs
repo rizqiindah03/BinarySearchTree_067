@@ -28,6 +28,11 @@ namespace BinarySearchTree_067
         public node ROOT;
         public BinaryTree()
         {
+            ROOT = null; /* initializing ROOT to null */
+
+        }
+        public void insert (string element)/* insert a node in the binary search tree */
+        {
 
         }
     }
